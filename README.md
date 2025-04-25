@@ -5,8 +5,8 @@
   <i align="center">Legacy UI to access Torque Protocol</i>
 </p>
 
-## Under Construction
-We're developing Torque V2 with learnings and feedback from V1 right now. Stay tuned for updates and information regarding the official release. Torque documentation will be updated once V2 is live.
+## Torque Legacy UI
+We're developing Torque V2 with learnings and feedback from V1 right now. This Legacy UI has become outdated. Stay tuned for more information regarding the official V2 release. Torque documentation reflecting upgrades is to be shared in due time.
 
 - **Website**: [legacy.torque.fi](https://legacy.torque.fi)
 - **Documentation**: [docs.torque.fi](https://docs.torque.fi)
