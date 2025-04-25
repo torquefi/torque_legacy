@@ -2,20 +2,20 @@
   <img src="public/assets/torque-square.png" alt="Torque Logo" width=13.4%>
 </p>
 <p align="center">
-  <i align="center">Flagship UI to access Torque Protocol</i>
+  <i align="center">Legacy UI to access Torque Protocol</i>
 </p>
 
 ## Under Construction
-We're developing Torque V2 with learnings and feedback from V1 right now. Stay tuned for updates and information regarding the official release. This documentation will be updated once V2 is live.
+We're developing Torque V2 with learnings and feedback from V1 right now. Stay tuned for updates and information regarding the official release. Torque documentation will be updated once V2 is live.
 
-- **Website**: [torque.fi](https://torque.fi)
+- **Website**: [legacy.torque.fi](https://legacy.torque.fi)
 - **Documentation**: [docs.torque.fi](https://docs.torque.fi)
 - **X (Twitter)**: [x.com/torquefi](https://x.com/torquefi)
 - **Telegram**: [t.me/torquefi](https://t.me/torquefi)
 
 ## Getting Started (V1)
 
-To use the interface, follow these steps:
+To use the Legacy UI, follow these steps:
 
 1. **Logging In**
    - Ensure you have a compatible wallet.
