@@ -6,9 +6,10 @@
 </p>
 
 ## Torque Legacy UI
-We're developing V2 with learnings/feedback from V1. This Legacy UI has become outdated. Stay tuned for more information regarding the official V2 release. Torque docs reflecting upgrades are to be shared in due time.
+We're developing V2 with learnings/feedback from V1. This [Legacy UI](https://legacy.torque.fi) has become outdated. Stay tuned for more information regarding the official V2 release. Torque docs reflecting upgrades are to be shared in due time.
 
-- **Website**: [legacy.torque.fi](https://legacy.torque.fi)
+- **Website**: [torque.fi](https://torque.fi)
+- **Legacy UI**: [legacy.torque.fi](https://legacy.torque.fi)
 - **Documentation**: [docs.torque.fi](https://docs.torque.fi)
 - **X (Twitter)**: [x.com/torquefi](https://x.com/torquefi)
 - **Telegram**: [t.me/torquefi](https://t.me/torquefi)
