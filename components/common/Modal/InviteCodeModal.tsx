@@ -63,7 +63,7 @@ const InviteCodeModal = ({ open, handleClose }: InviteCodeModalProps) => {
   return (
     <Modal open={open} handleClose={() => {}} hideCloseIcon={true} className="max-w-[390px] mb-3 rounded-none py-8 bg-white dark:bg-[#030303] border border-[0px] border-[#efefef]">
       <motion.div
-        className="flex mb-3 md:mb-0 flex-col items-center"
+        className="flex flex-col items-center mb-3 md:mb-0"
         initial="hidden"
         animate="show"
         variants={containerVariants}
@@ -75,10 +75,10 @@ const InviteCodeModal = ({ open, handleClose }: InviteCodeModalProps) => {
           variants={itemVariants}
         />
         <motion.h2 className="font-rogan text-[24px] font-[400] text-black dark:text-white" variants={itemVariants}>
-          Early Access
+          Legacy Access
         </motion.h2>
         <motion.div className="mt-2 text-center" variants={itemVariants}>
-          <p className="text-[#959595]">Enter invite code to gain early access.</p>
+          <p className="text-[#959595]">Enter invite code to gain legacy access.</p>
           <p className="text-[#959595]">Don't have a code? <a className="underline" href="https://t.me/torquefi" target="_blank">Join Telegram.</a></p>
         </motion.div>
         <motion.div className="flex mt-4 space-x-2" variants={containerVariants}>
