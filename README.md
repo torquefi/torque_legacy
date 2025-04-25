@@ -6,7 +6,7 @@
 </p>
 
 ## Torque Legacy UI
-We're developing Torque V2 with learnings and feedback from V1 right now. This Legacy UI has become outdated. Stay tuned for more information regarding the official V2 release. Torque documentation reflecting upgrades is to be shared in due time.
+We're developing V2 with learnings/feedback from V1. This Legacy UI has become outdated. Stay tuned for more information regarding the official V2 release. Torque docs reflecting upgrades are to be shared in due time.
 
 - **Website**: [legacy.torque.fi](https://legacy.torque.fi)
 - **Documentation**: [docs.torque.fi](https://docs.torque.fi)
