@@ -34,8 +34,8 @@ export const Proposals = () => {
         {tipData.map((item, i) => (
           <ProposalsItem menu={item} key={item?.id} />
         ))}
-        <Link href="https://www.tally.xyz/gov/torque/proposals" legacyBehavior>
-          <a target='_blank'>
+        <Link href="#" legacyBehavior>
+          <a>
             <div className="mt-[12px] cursor-pointer text-center text-[16px] font-[500] uppercase text-[#959595]">
               view all
             </div>

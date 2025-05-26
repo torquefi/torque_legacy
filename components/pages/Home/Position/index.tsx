@@ -60,7 +60,7 @@ export default function Position() {
 
   if (isSkeletonLoading) {
     return (
-      <div className="mb-4 mt-[24px]">
+      <div className="mt-4">
         <div className="flex items-center justify-between">
           <div className="flex-1">
             <SkeletonDefault height={'34px'} width={'100px'} />
@@ -80,7 +80,7 @@ export default function Position() {
 
   if (!boostDisplayed?.length && !borrowDisplayed?.length) {
     return (
-      <div className="mt-[24px]">
+      <div className="mt-4">
         <div className="flex items-center justify-between">
           <h3 className="font-rogan tracking-tight text-[28px] text-[#030303] dark:text-white">
             Positions
@@ -93,7 +93,7 @@ export default function Position() {
   }
 
   return (
-    <div className="mb-4 mt-[24px]">
+    <div className="mt-4">
       <div className="flex items-center justify-between">
         <h3 className="font-rogan text-[28px] text-black dark:text-white">
           Positions

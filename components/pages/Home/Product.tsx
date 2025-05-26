@@ -14,7 +14,7 @@ export default function Product() {
   }, [])
 
   return (
-    <div className="mt-[24px]">
+    <div className="mt-4">
       <UniSwapModal
         open={openUniSwapModal}
         handleClose={() => setOpenUniSwapModal(false)}

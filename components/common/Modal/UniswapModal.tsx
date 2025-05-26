@@ -347,15 +347,6 @@ export default function UniSwapModal({
             />
           </div>
         </div>
-        <div
-          className={
-            `mt-2 hidden h-[1px] w-full md:block` +
-            `
-      ${
-        theme === 'light' ? 'bg-gradient-divider-light' : 'bg-gradient-divider'
-      }`
-          }
-        ></div>
         <div className="mt-[14px] w-full">
           <div className="relative">
             {/* from */}

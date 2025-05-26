@@ -12,21 +12,16 @@ export const BorrowPage = () => {
   const visibilityBorrowBanner = useSelector((store: AppStore) => store.layout.visibilityBorrowBanner)
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1000)
+    setTimeout(() => setLoading(false), 500)
   }, [])
 
   if (isLoading) {
     return (
       <div className="mt-[-20px]">
         {visibilityBorrowBanner && (
-          <>
-            <div className="hidden lg:block">
-              <SkeletonDefault height={'40vh'} />
-            </div>
-            <div className="lg:hidden">
-              <SkeletonDefault height={'15vh'} />
-            </div>
-          </>
+          <div className="relative w-full aspect-[4/1] rounded-xl overflow-hidden">
+            <SkeletonDefault className="h-full w-full" />
+          </div>
         )}
         <div className="mt-[36px]">
           <div className="flex items-center justify-between mb-4">
@@ -40,8 +35,10 @@ export const BorrowPage = () => {
           </div>
           {layoutBorrow === 'grid' && (
             <div className="grid gap-4 md:grid-cols-2">
-              <SkeletonDefault height={'50vh'} width={'100%'} />
-              <SkeletonDefault height={'50vh'} width={'100%'} />
+              <SkeletonDefault height={'450px'} width={'100%'} />
+              <SkeletonDefault height={'450px'} width={'100%'} />
+              <SkeletonDefault height={'450px'} width={'100%'} />
+              <SkeletonDefault height={'450px'} width={'100%'} />
             </div>
           )}
         </div>
